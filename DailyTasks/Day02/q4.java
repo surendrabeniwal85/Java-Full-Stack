@@ -10,9 +10,10 @@ public class q4 {
         }
 
         if(n % 2 == 0){
-            System.out.println("The number is even");
+            System.out.println(n + " is even");
         }else{
-            System.out.println("The number is odd");
+            System.out.println(n + " is odd");
         }
+
     }
 }

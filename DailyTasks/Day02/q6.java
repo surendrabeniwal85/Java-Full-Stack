@@ -9,11 +9,10 @@ public class q6 {
         n = sc.nextInt();
         }
 
-        for(int i = 1; i <=10; i++){
-            int num = i*n;
+        for(int i = 1; i <= 10; i++){
+            int num = i * n;
 
-         System.out.println(+ num);
-        }
-        
+        System.out.println(n + " * " + i + " = " + num);
+        }  
     }  
 }

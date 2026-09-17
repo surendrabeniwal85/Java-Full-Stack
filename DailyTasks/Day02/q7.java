@@ -9,9 +9,11 @@ public class q7 {
         n = sc.nextInt();
         }
 
-        for(int i = 1; i <= 10; i++){
-            n = i * n;
-            System.out.println(+ n);
+        long fact = 1;
+        for(int i = 1; i <= n; i++){
+            fact = fact * i;
         }
+
+        System.out.println("Factorial of " + n + " = " + fact);
     } 
 }

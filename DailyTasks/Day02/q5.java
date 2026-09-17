@@ -10,10 +10,10 @@ public class q5 {
         year = sc.nextInt();
         }
 
-        if(year % 4 == 0 && year % 100 == 0){
-            System.out.println("This is a leap year");
+        if(year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)){
+            System.out.println(year + " is a leap year");
         }else{
-            System.out.println("This is not a leap year");
+            System.out.println(year + " is not a leap year");
         }
     }  
 }

@@ -1,7 +1,9 @@
+//largest of two numbers
+
 import java.util.Scanner;
 
 public class q2 {
-    static void main(String[] args){
+    public static void main(String[] args){
 
         int a, b;
         try (Scanner sc = new Scanner(System.in)){
@@ -11,9 +13,11 @@ public class q2 {
         b = sc.nextInt();
 
         if(a > b){
-            System.out.println("A is greater");
+            System.out.println(a + " is largest");
+        }else if(b > a){
+            System.out.println(b + " is largest");
         }else{
-            System.out.println("B is greater");
+            System.out.println("Both numbers are equal");
         }
         }
     }
