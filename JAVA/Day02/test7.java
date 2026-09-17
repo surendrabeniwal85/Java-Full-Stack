@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class test7 {
-    static void main(String[] args){
+    public static void main(String[] args){
 
         int n;
         try (Scanner sc = new Scanner(System.in)){
@@ -9,11 +9,10 @@ public class test7 {
         n = sc.nextInt();
         }
 
-        for(int i = 1; i <=10; i++){
-            int num = i*n;
+        for(int i = 1; i <= 10; i++){
+            int num = i * n;
 
-         System.out.println(+ num);
+         System.out.println(n + " * " + i + " = " +num);
         }
-        
     }  
 }
