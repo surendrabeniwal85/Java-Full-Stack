@@ -1,0 +1,3 @@
+# Java Full Stack
+
+This repository contains my Java Full Stack development work, including Java programming concepts, object-oriented programming, problem-solving, backend development, frontend development, database concepts, and full-stack technologies. The code is organized day-wise to maintain a structured learning and development journey, with each folder containing programs and implementations related to the topics covered.
