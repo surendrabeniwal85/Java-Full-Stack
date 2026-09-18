@@ -1,3 +1,5 @@
+//multiplication table
+
 import java.util.Scanner;
 
 public class q6 {

@@ -1,3 +1,5 @@
+//Even or odd
+
 import java.util.Scanner;
 
 public class q4 {
