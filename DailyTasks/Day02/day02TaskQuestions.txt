@@ -1,0 +1,21 @@
+Day 2 Task:
+1.	How to get user input in Java
+2.	WAP to find the largest of two numbers in Java
+3.	WAP to find the largest of three numbers in Java
+4.	WAP to check for even or odd numbers in Java
+5.	WAP to check for leap year in Java
+6.	WAP to print multiplication table in Java
+7.	WAP to find the factorial of a number in Java
+8.	WAP to swap two numbers with and without using a third variable in Java
+9.	WAP to create a calculator using a switch case in Java
+10.	WAP to reverse a number in Java
+11.	WAP to check whether a number is a palindrome in Java
+12.	WAP to check whether a number is prime or not in Java
+13.	WAP to print all prime numbers between 1 to 100 in Java
+14.	WAP to print Fibonacci series in Java
+15.	WAP to find the GCD (HCF) of two numbers in Java
+16.	WAP to find the LCM of two numbers in Java.
+17.	WAP to count the number of digits in a number in Java.
+18.	WAP to calculate the sum of digits in a number in Java.
+19.	WAP to check whether a number is an Armstrong number in Java.
+20.	WAP to print all Armstrong numbers between 1 to 10,000 in Java.

@@ -1,0 +1,20 @@
+Day 03 Task :
+
+1	Create a Basic Class and Object
+2	Create Multiple Objects of a Class
+3	Student Information Using Fields and Methods
+4	Employee Information Program
+5	Employee Salary Calculation
+6	Calculate Rectangle Area Using Method
+7	Calculate Circle Area and Circumference
+8	Bank Account with Deposit and Withdrawal
+9	Car Information Using Class and Object
+10	Student Result Calculation
+11	Default Constructor Example
+12	Parameterized Constructor Example
+13	Constructor with Multiple Parameters
+14	Multiple Constructors in a Class
+15	Constructor Overloading Example
+16	Constructor and Method Example
+17	Multiple Objects Using Parameterized Constructor
+18	Copy Constructor Example.
