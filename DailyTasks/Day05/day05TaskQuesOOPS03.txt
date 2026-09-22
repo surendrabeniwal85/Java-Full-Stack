@@ -1,0 +1,41 @@
+Sl. No.	Topic	Complete Program Statement / Use Case
+1	Basic Inheritance	Write a Java program to implement basic inheritance using a Vehicle and Car class. Create common properties/behaviors in the Vehicle class and inherit them in the Car class.
+    Demonstrate how the child class can access the features of the parent class.
+2	Single Inheritance	Write a Java program to demonstrate single inheritance using an Animal and Dog class.
+    Define common behavior such as eat() in the Animal class and specific behavior such as bark() in the Dog class.
+3	Multilevel Inheritance	Write a Java program to implement multilevel inheritance for an animal classification system. 
+    Create classes Animal, Mammal, and Dog, where each class inherits from the previous class. Demonstrate how Dog can access methods from both parent classes.
+4	Hierarchical Inheritance	Write a Java program to implement hierarchical inheritance for different types of animals. 
+    Create a parent class Animal and derive Dog and Cat from it. Demonstrate common functionality inherited by both child classes along with their specific behaviors.
+5	Constructor in Inheritance	Write a Java program to demonstrate constructor execution in inheritance. 
+    Create a parent class and a child class, define constructors in both classes, and demonstrate the order in which the parent and child constructors are executed when a child object is created.
+6	super Keyword	Write a Java program to demonstrate the use of the super keyword in inheritance. 
+    Create parent and child classes having variables and methods with the same name. Use super to access the parent class variable and method from the child class.
+7	Method Overloading	Write a Java program to implement method overloading for a Calculator application. 
+    Create multiple add() methods that accept different numbers or types of parameters and demonstrate compile-time polymorphism.
+8	Constructor Overloading	Write a Java program to implement constructor overloading for a Student Management System.
+    Create multiple constructors to initialize student objects using different combinations of student ID and name.
+9	Method Overriding	Write a Java program to demonstrate method overriding using an Animal, Dog, and Cat class. 
+    Define a sound() method in the parent class and override it in the child classes to provide different implementations.
+10	Runtime Polymorphism	Write a Java program to demonstrate runtime polymorphism using an Animal reference. 
+    Create Dog and Cat classes that override the sound() method and use a parent-class reference to invoke the appropriate child-class method at runtime.
+11	Abstract Class	Write a Java program to implement an abstract class for calculating the area of geometric shapes. 
+    Create an abstract class Shape with an abstract calculateArea() method and implement it in a Circle class.
+12	Abstract Class + Inheritance	Write a Java program to implement an employee management system using an abstract class. 
+    Create an abstract Employee class with an abstract work() method and derive Manager and Developer classes that provide their own implementations.
+13	Abstract Class + Polymorphism	Write a Java program to calculate the area of different geometric shapes using an abstract class and runtime polymorphism. 
+    Create Shape, Circle, and Rectangle classes and use a Shape reference to calculate the appropriate area.
+14	Basic Interface	Write a Java program to implement an interface for calculating the area of a shape. 
+    Create a Shape interface containing an area() method and implement it in the Circle class.
+15	Multiple Interfaces	Write a Java program to demonstrate multiple interface implementation using a multimedia device. 
+    Create Printable and Showable interfaces and implement both interfaces in a single Demo class.
+16	Interface + Inheritance	Write a Java program to demonstrate the use of an interface along with class inheritance in a transportation system. 
+    Create a Vehicle parent class and a Fare interface, then create a Bus class that extends Vehicle and implements Fare.
+17	Default Method in Interface	Write a Java program to demonstrate the use of a default method in an interface. 
+    Create a Fare interface containing a default fareInfo() method and implement the interface in a Bus class without overriding the default method.
+18	Multiple Inheritance through Interfaces	Write a Java program to implement multiple inheritance using interfaces for a smartphone. 
+    Create Camera and MusicPlayer interfaces and implement both interfaces in a Smartphone class.
+19	Interface-Based Polymorphism	Write a Java program to demonstrate runtime polymorphism using an interface. 
+    Create a Shape interface and implement it in Circle and Rectangle classes. Use a Shape reference to invoke the appropriate draw() method.
+20	Complete Inheritance & Polymorphism	Write a Java program to develop an Employee Management System demonstrating inheritance and polymorphism. 
+    Use an abstract Employee class, Manager and Developer subclasses, and a Payable interface. Demonstrate constructor inheritance, method overriding, interface implementation, and runtime polymorphism.
