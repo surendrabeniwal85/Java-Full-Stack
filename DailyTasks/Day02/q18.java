@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //sum of digits
 
 import java.util.Scanner;
@@ -23,3 +25,4 @@ public class q18 {
         System.out.println("Sum of digits = " + sum);
     }
 }
+

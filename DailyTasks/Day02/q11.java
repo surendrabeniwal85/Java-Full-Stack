@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //Palindrome number
 
 import java.util.Scanner;
@@ -31,3 +33,4 @@ public class q11 {
         }
     }
 }
+

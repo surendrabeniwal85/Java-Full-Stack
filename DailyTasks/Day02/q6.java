@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //multiplication table
 
 import java.util.Scanner;
@@ -18,3 +20,4 @@ public class q6 {
         }  
     }  
 }
+

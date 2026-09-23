@@ -1,3 +1,5 @@
+package JAVA.Day02;
+
 import java.util.Scanner;
 
 public class test2 {
@@ -20,3 +22,4 @@ public class test2 {
         } 
     } 
 }
+

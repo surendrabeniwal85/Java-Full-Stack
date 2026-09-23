@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //reverse a number
 
 import java.util.Scanner;
@@ -24,3 +26,4 @@ public class q10 {
         System.out.println("Reversed Number is : " + rev);
     }
 }
+

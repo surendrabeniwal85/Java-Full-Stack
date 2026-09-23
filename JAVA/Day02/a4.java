@@ -1,3 +1,5 @@
+package JAVA.Day02;
+
 public class a4 {
     public static void main(String[] args){
 
@@ -14,3 +16,4 @@ public class a4 {
         }
     }
 }
+

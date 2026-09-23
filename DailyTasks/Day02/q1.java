@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //get user input
 
 import java.util.Scanner;
@@ -17,3 +19,4 @@ public class q1 {
         }
     }
 }
+

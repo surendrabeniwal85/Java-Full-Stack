@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //fibonacci series
 
 import java.util.Scanner;
@@ -27,3 +29,4 @@ public class q14 {
         }
     }  
 }
+

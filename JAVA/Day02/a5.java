@@ -1,3 +1,5 @@
+package JAVA.Day02;
+
 //Using return in a method
 
 public class a5 {
@@ -11,3 +13,4 @@ public class a5 {
         return a + b;
     }
 }
+

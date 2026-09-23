@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //prime or not
 
 import java.util.Scanner;
@@ -31,3 +33,4 @@ public class q12 {
         }
     }   
 }
+

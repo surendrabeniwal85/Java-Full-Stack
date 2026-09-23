@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //Leap year
 
 import java.util.Scanner;
@@ -19,3 +21,4 @@ public class q5 {
         }
     }  
 }
+

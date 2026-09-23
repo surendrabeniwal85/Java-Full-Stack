@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //GCD or HCF of two numbers
 
 import java.util.Scanner;
@@ -24,3 +26,4 @@ public class q15 {
         System.out.println("GCD of a & b = " + a);
     }
 }
+

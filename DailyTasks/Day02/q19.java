@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 // armstrong number
 
 import java.util.Scanner;

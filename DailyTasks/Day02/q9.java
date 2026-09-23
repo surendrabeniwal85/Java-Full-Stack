@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //calculator using switch case
 
 import java.util.Scanner;
@@ -50,3 +52,4 @@ public class q9{
         }
     }
 }
+

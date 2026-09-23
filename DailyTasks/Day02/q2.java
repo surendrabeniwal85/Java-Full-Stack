@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //largest of two numbers
 
 import java.util.Scanner;
@@ -23,3 +25,4 @@ public class q2 {
     }
     
 }
+

@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //count number of digits
 
 import java.util.Scanner;
@@ -22,3 +24,4 @@ public class q17 {
         System.out.println("Number of digits = " + count);
     }
 }
+

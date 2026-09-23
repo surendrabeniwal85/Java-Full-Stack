@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //all prime numbers from 1 to 200
 
 public class q13 {
@@ -20,3 +22,4 @@ public class q13 {
         }
     }  
 }
+

@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //swap two numbers
 
 import java.util.Scanner;
@@ -47,6 +49,7 @@ public class q8 {
         }
     }
 }
+
 
 
 

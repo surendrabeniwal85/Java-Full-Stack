@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //LCM of two numbers
 
 import java.util.Scanner;

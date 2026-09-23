@@ -1,3 +1,5 @@
+package JAVA.Day02;
+
 import java.util.Scanner;
 
 public class even {
@@ -15,3 +17,4 @@ public class even {
         }
     }  
 }
+

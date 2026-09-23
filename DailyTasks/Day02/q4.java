@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //Even or odd
 
 import java.util.Scanner;
@@ -19,3 +21,4 @@ public class q4 {
 
     }
 }
+

@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //factorial of a number
 
 import java.util.Scanner;
@@ -19,3 +21,4 @@ public class q7 {
         System.out.println("Factorial of " + n + " = " + fact);
     } 
 }
+

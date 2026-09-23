@@ -1,3 +1,5 @@
+package JAVA.Day02;
+
 public class test1 {
     public static void main(String[] args){
         int num = -5;
@@ -8,3 +10,4 @@ public class test1 {
         }
     }
 }
+

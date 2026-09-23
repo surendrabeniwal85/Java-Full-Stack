@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //Armstrong number from 1 to 1000
 
 public class q20 {

@@ -1,3 +1,5 @@
+package JAVA.Day02;
+
 public class a2{
     public static void main(String[] args){
 
@@ -10,3 +12,4 @@ public class a2{
         }
     }
 }
+

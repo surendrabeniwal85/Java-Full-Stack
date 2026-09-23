@@ -1,3 +1,5 @@
+package DailyTasks.Day02;
+
 //largest of three numbers
 
 import java.util.Scanner;
@@ -25,3 +27,4 @@ public class q3 {
         }
     }
 }
+
