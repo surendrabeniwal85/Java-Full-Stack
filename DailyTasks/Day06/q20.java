@@ -2,12 +2,6 @@ package DailyTasks.Day06;
 
 import java.util.Scanner;
 
-class InsufficientBalanceException extends Exception {
-    InsufficientBalanceException(String message) {
-        super(message);
-    }
-}
-
 class q20 {
 
     static void withdraw(double balance, double amount)

@@ -1,0 +1,99 @@
+Program 1: List – Student Name Management
+Problem Statement: Write a Java program to create an ArrayList of student names. 
+Add at least 8 names, display all names using a for-each loop, and demonstrate adding, updating, and removing an element.
+Concepts to Practice: ArrayList, add(), set(), remove(), iteration.
+
+Program 2: List – Marks Management
+Problem Statement: Write a Java program to store the marks of students in an ArrayList<Integer>. 
+Display the marks, calculate the total and average, and find the highest and lowest marks.
+Concepts to Practice: ArrayList, Integer, iteration, aggregation
+
+Program 3: List – Remove Elements During Iteration
+Problem Statement: Write a Java program to store employee IDs in an ArrayList and remove all IDs that are less than 1005 while iterating. 
+Use Iterator to perform the removal safely.
+Concepts to Practice: Iterator, ArrayList, remove()
+
+Program 4: LinkedList – Task Management
+Problem Statement: Write a Java program to implement a task-management system using LinkedList<String>. 
+Add tasks at the beginning and end, remove completed tasks, and display the remaining tasks.
+Concepts to Practice: LinkedList, addFirst(), addLast(), removeFirst(), removeLast()
+
+Program 5: Set – Remove Duplicate Values
+Problem Statement: Write a Java program to store 10 city names in a HashSet. 
+Some city names should be repeated. Display the set and demonstrate how Set automatically removes duplicate values.
+Concepts to Practice: Set, HashSet, uniqueness
+
+Program 6: Set – Unique Student IDs
+Problem Statement: Write a Java program to store student IDs using HashSet<Integer>. 
+Add duplicate IDs intentionally and display the final set. Also check whether a particular student ID exists.
+Concepts to Practice: HashSet, add(), contains()
+
+Program 7: LinkedHashSet – Preserve Insertion Order
+Problem Statement: Write a Java program to store product categories in a LinkedHashSet. 
+Add duplicate categories and display the result to demonstrate uniqueness while preserving insertion order.
+Concepts to Practice: LinkedHashSet, uniqueness, insertion order
+
+Program 8: TreeSet – Sorted Data
+Problem Statement: Write a Java program to store integer scores in a TreeSet. Add multiple scores, including duplicates, and display them in sorted ascending order. 
+Also find the first and last score.
+Concepts to Practice: TreeSet, sorting, first(), last()
+
+Program 9: Map – Student Record Management
+Problem Statement: Write a Java program using HashMap<Integer, String> to store student ID as the key and student name as the value. 
+Add records, retrieve a student by ID, update a name, and remove a record.
+Concepts to Practice: HashMap, key-value pairs, put(), get(), remove()
+
+Program 10: Map – Frequency Counter
+Problem Statement: Write a Java program to count the frequency of each word in a sentence using HashMap<String, Integer>. 
+Display each word and its frequency.
+Concepts to Practice: HashMap, getOrDefault(), iteration
+
+Program 11: Map – Employee Salary Management
+Problem Statement: Write a Java program using HashMap<Integer, Double> to store employee IDs and salaries. 
+Display all records, calculate total salary, and find employees whose salary is above a specified amount.
+Concepts to Practice: HashMap, entrySet(), filtering
+
+Program 12: LinkedHashMap – Ordered Records
+Problem Statement: Write a Java program using LinkedHashMap to store product IDs and product names. 
+Demonstrate that the entries are displayed in the same order in which they were inserted.
+Concepts to Practice: LinkedHashMap, insertion order
+
+Program 13: Queue – Customer Service
+Problem Statement: Write a Java program to implement a customer-service queue using Queue<String>.
+Add customers, display the front customer, serve customers using poll(), and display the remaining queue.
+Concepts to Practice: Queue, LinkedList, offer(), peek(), poll()
+
+Program 14: PriorityQueue – Priority Processing
+Problem Statement: Write a Java program using PriorityQueue<Integer> to store task priorities. 
+Insert several priority values and remove them one by one to demonstrate priority-based processing.
+Concepts to Practice: PriorityQueue, offer(), peek(), poll()
+
+Program 15: Comparable – Student Sorting by ID
+Problem Statement: Write a Java program to create a Student class implementing Comparable<Student>. 
+Store students in an ArrayList and sort them by student ID using Collections.sort().
+Concepts to Practice: Comparable, compareTo(), Collections.sort()
+
+Program 16: Comparable – Employee Sorting by Salary
+Problem Statement: Write a Java program to create an Employee class implementing Comparable<Employee>. 
+Store employees in an ArrayList and define the natural ordering based on salary in ascending order.
+Concepts to Practice: Comparable, compareTo(), object sorting
+
+Program 17: Comparator – Student Sorting by Name
+Problem Statement: Write a Java program to create a Student class. 
+And use Comparator<Student> to sort students alphabetically by name without changing the Student class's natural ordering.
+Concepts to Practice: Comparator, compare(), lambda expression
+
+Program 18: Comparator – Employee Sorting by Salary Descending
+Problem Statement: Write a Java program to store Employee objects in an ArrayList.
+And use Comparator to sort employees by salary in descending order.
+Concepts to Practice: Comparator, custom ordering, reversed()
+
+Program 19: List + Set + Map + Queue Integrated Application
+Problem Statement: Write a Java program for a College Management System that uses ArrayList for student names, HashSet for unique course names, HashMap for student ID-to-name mapping, and Queue for students waiting for registration. 
+Display all collections.
+Concepts to Practice: List, Set, Map, Queue, integration
+
+Program 20: Comparable + Comparator – Multiple Sorting Criteria
+Problem Statement: Write a Java program to create a Student class with ID, name, and marks. 
+Implement Comparable to sort students by ID and use separate Comparators to sort by name and marks. Demonstrate all three sorting approaches.
+Concepts to Practice: Comparable, Comparator, multiple sorting criteria, Collections.sort()
