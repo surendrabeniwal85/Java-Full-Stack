@@ -1,0 +1,41 @@
+Java Functional Programming – 20 Program List :
+
+1. Check Whether a Number is Even Using Lambda Expression
+
+2. Check Whether a Number is Positive Using Predicate
+
+3. Check Voting Eligibility Using Predicate
+
+4. Check Whether a Number is Divisible by 5 Using Predicate
+
+5. Check Whether a String Contains More Than 5 Characters Using Predicate
+
+6. Convert Celsius to Fahrenheit Using Function
+
+7. Find Square of a Number Using Function
+
+8. Convert a String to Uppercase Using Function
+
+9. Calculate Employee Salary After 10% Bonus Using Function
+
+10. Find Length of a String Using Function
+
+11. Print Student Name Using Consumer
+
+12. Display Employee Details Using Consumer
+
+13. Print All Elements of a List Using Consumer
+
+14. Calculate and Display Product Price After Discount Using Consumer
+
+15. Display Pass or Fail Status Using Consumer
+
+16. Generate a Random Number Using Supplier
+
+17. Generate a Welcome Message Using Supplier
+
+18. Generate a Default Username Using Supplier
+
+19. Generate the Current Date Using Supplier
+
+20. Create a Student Result Processing System Using Predicate, Function, Consumer and Supplier
