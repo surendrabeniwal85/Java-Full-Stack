@@ -1,0 +1,66 @@
+1.	Create a Stream from a List
+Create a List<Integer> containing 10 integers. Create a stream from the list and display all elements using forEach(). 
+
+2.	Filter Even Numbers
+Given a list of integers, use filter() to select and display only the even numbers. 
+
+3.	Filter Numbers Greater Than 50
+Create a list of integers and use a stream to display only numbers greater than 50. 
+
+4.	Square Each Number
+Given a list of integers, use map() to calculate the square of every number and display the results. 
+
+5.	Convert Names to Uppercase
+Create a list of student names and use map() to convert every name to uppercase. 
+
+6.	Find Names Starting with "S"
+Create a list of names and use filter() to display only names whose first character is S. 
+
+7.	Filter and Transform Numbers
+Given a list of integers, use filter() to select numbers greater than 10, then use map() to multiply each selected number by 2. 
+
+8.	Remove Duplicate Elements
+Create a list containing duplicate integers. Use distinct() to remove duplicates and display the unique values. 
+
+9.	Sort Numbers Using Stream
+Create an unsorted list of integers and use sorted() to display the numbers in ascending order. 
+
+10.	Sort Names Alphabetically
+Create a list of student names and use sorted() to arrange and display them in alphabetical order. 
+
+11.	Skip and Limit Elements
+Create a stream containing numbers from 1 to 20. Use skip() to skip the first 5 numbers and limit() to display the next 5 numbers. 
+
+12.	Count Matching Elements
+Given a list of integers, use filter() and count() to find how many numbers are divisible by 5. 
+
+13.	Find Maximum and Minimum
+Create a list of integers and use the terminal operations max() and min() to find the largest and smallest values. 
+
+14.	Calculate Sum Using reduce()
+Create a list of integers and use reduce() to calculate the sum of all elements. 
+
+15.	Check Conditions Using anyMatch()
+Create a list of marks and use anyMatch() to check whether at least one student has scored more than 90. 
+
+16.	Check Conditions Using allMatch()
+Create a list of marks and use allMatch() to check whether all students have scored at least 40. 
+
+17.	Check Conditions Using noneMatch()
+Create a list of numbers and use noneMatch() to check whether none of the numbers is negative. 
+
+18.	Flatten Nested Lists Using flatMap()
+Create a List<List<String>> containing programming languages grouped into different lists. 
+Use flatMap() to convert it into a single stream of strings. 
+
+19.	Complete Stream Pipeline
+Given a list of names, perform the following operations in sequence: 
+o	Filter names starting with "S" 
+o	Convert them to uppercase 
+o	Remove duplicates 
+o	Sort alphabetically 
+o	Display the final result 
+
+20.	Stream Pipeline with peek()
+Create a list of integers and build a stream pipeline using filter(), map(), distinct(), sorted(), and peek(). 
+Use peek() to display the elements at an intermediate stage and use collect() to store the final result in a list.
