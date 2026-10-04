@@ -1,0 +1,40 @@
+1. Employee Salary Filter: 
+Given a list of employees, use the Streams API to find employees earning more than ₹50,000, 
+sort them by salary, and collect their names into a list.
+
+2. Student Marks Analysis: 
+Given a list of students and their marks, find students who scored above 60, 
+calculate the average marks, and identify the highest scorer using Streams.
+
+3. Product Category Analysis: 
+Given a list of products with names, categories, and prices, 
+group the products by category and calculate the average price of each category using Collectors.
+
+4. Word Frequency Counter: 
+Given a paragraph, create a stream of words and use the Collectors API to 
+count the frequency of each word and identify the most frequently occurring word.
+
+5. Employee Department Report: 
+Given a list of employees, group them by department, calculate the total salary 
+for each department, and find the highest-paid employee in each department.
+
+6. Stream Creation Practice: 
+Create streams from a list, array, Stream.of(), Stream.generate(), and Stream.iterate(), 
+and perform suitable intermediate and terminal operations on each stream.
+
+7. Sequential vs Parallel Processing: 
+Given a list of one million integers, calculate their sum using both sequential and 
+parallel streams and compare their execution times.
+
+8. Optional Employee Search: 
+Create a method that searches for an employee by ID and returns an Optional<Employee>.
+Use Optional operations to handle both found and not-found cases.
+
+9. Second-Highest Number: 
+Given a list of integers, remove duplicates and use Streams to find the second-highest number. 
+Handle the case where fewer than two distinct numbers are present using Optional.
+
+10. Employee Data Processing Pipeline: 
+Given a list of employees, filter employees by department and salary, 
+transform their names, sort them, collect the results, calculate the average salary, 
+and find the highest-paid employee using Streams, Collectors, and Optional.
