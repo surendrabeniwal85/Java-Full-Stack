@@ -3,49 +3,43 @@ package ModernJava.Day14Tasks;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
+import java.time.format.ResolverStyle;
 import java.util.Scanner;
 
-//meeting time zone converter
+// Meeting time zone converter
 
 public class q03 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
 
-        System.out.print("Enter meeting year : ");
-        int y = sc.nextInt();
+            System.out.print("Enter meeting date and time (dd/MM/yyyy HH:mm): ");
+            String s = sc.nextLine();
 
-        System.out.print("Enter meeting month : ");
-        int m = sc.nextInt();
+            try {
+                DateTimeFormatter f = DateTimeFormatter
+                        .ofPattern("dd/MM/uuuu HH:mm")
+                        .withResolverStyle(ResolverStyle.STRICT);
 
-        System.out.print("Enter meeting day : ");
-        int d = sc.nextInt();
+                LocalDateTime dt = LocalDateTime.parse(s, f);
 
-        System.out.print("Enter hour : ");
-        int h = sc.nextInt();
+                ZonedDateTime india = dt.atZone(
+                        ZoneId.of("Asia/Kolkata"));
 
-        System.out.print("Enter minute : ");
-        int min = sc.nextInt();
+                ZonedDateTime ny = india.withZoneSameInstant(
+                        ZoneId.of("America/New_York"));
 
-        try {
-            LocalDateTime dt = LocalDateTime.of(y, m, d, h, min);
+                ZonedDateTime london = india.withZoneSameInstant(
+                        ZoneId.of("Europe/London"));
 
-            ZonedDateTime india = dt.atZone(
-                    ZoneId.of("Asia/Kolkata"));
+                System.out.println("\nIndia: " + india);
+                System.out.println("New York: " + ny);
+                System.out.println("London: " + london);
 
-            ZonedDateTime usa = india.withZoneSameInstant(
-                    ZoneId.of("America/New_York"));
-
-            ZonedDateTime uk = india.withZoneSameInstant(
-                    ZoneId.of("Europe/London"));
-
-            System.out.println("\nIndia : " + india);
-            System.out.println("New York : " + usa);
-            System.out.println("London : " + uk);
-
-        } catch (Exception e) {
-            System.out.println("Invalid date or time.");
+            } catch (DateTimeParseException e) {
+                System.out.println("Invalid date/time. Use dd/MM/yyyy HH:mm.");
+            }
         }
-
-        sc.close();
     }
 }
