@@ -1,0 +1,19 @@
+1. Employee Salary Calculation using Callable & Future
+Create a program using Callable<Integer> to calculate an employee's annual salary from a monthly
+salary. Submit the task to an ExecutorService, obtain the result using Future.get(), and 
+display the annual salary.
+
+2. Student Marks Analysis using Multiple Callable Tasks
+Given three groups of student marks, create a Callable task for each group to calculate its average.
+Submit all tasks to an ExecutorService and use Future objects to retrieve and 
+display the three averages.
+
+3. Future with Runnable and Predefined Result
+Create a Runnable that simulates processing an employee record for 3 seconds. Submit it using 
+submit(Runnable, result) with the predefined result "Employee Processed Successfully". 
+Use Future.get() to display the result after task completion.
+
+
+
+
+
