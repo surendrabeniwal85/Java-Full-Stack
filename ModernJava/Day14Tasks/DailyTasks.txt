@@ -1,4 +1,4 @@
-A. Java Date & Time API — 10 Problem Statements
+Java Date & Time API — 10 Problem Statements :
 
 1.	Employee Joining Date Analysis
 Create a program that stores an employee's joining date using LocalDate and 
@@ -40,30 +40,4 @@ ZonedDateTime for Asia/Kolkata, and displays both the UTC timestamp and Indian l
 10.	Subscription Expiry Checker
 Given a subscription start date and subscription duration in months, calculate the expiry date 
 using LocalDate and Period. Determine whether the subscription is currently active or expired.
-________________________________________
 
-B. Concurrency Essentials — 5 Problem Statements.
-
-1.	Callable Employee Salary Calculation
-Create a Callable<Double> task that calculates an employee's annual salary from their monthly 
-salary. Submit the task to an ExecutorService, retrieve the result using Future, 
-and display the calculated annual salary.
-
-2.	Parallel Student Marks Calculation
-Given a list of students and their marks, create multiple Callable<Double> tasks to calculate 
-different groups' average marks. Use ExecutorService and Future to collect and display all 
-group averages.
-
-3.	Bank Account Balance Using Threads
-Create a program where multiple threads perform deposit and withdrawal operations on a shared bank
-account. Use synchronization to prevent race conditions and display the final account balance.
-
-4.	Asynchronous Result Using CompletableFuture
-Create a CompletableFuture that simulates fetching student details from a database. 
-After obtaining the student name, use thenApply() to convert the name to uppercase and 
-display the final result without blocking the main thread.
-
-5.	Parallel Data Processing with CompletableFuture
-Create three asynchronous tasks using CompletableFuture to calculate the sum, maximum, and 
-average of a list of integers. Combine the results and display all three values 
-after the asynchronous operations complete.
