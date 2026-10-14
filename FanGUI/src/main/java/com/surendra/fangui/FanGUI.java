@@ -25,7 +25,7 @@ public class FanGUI extends Application {
     public void start(Stage stage) {
 
         // Get video from resources
-        URL videoURL = getClass().getResource("/fan.mp4");
+        URL videoURL = getClass().getResource("/spinning_fan.mp4");
 
         if (videoURL == null) {
             System.out.println("Video not found!");
