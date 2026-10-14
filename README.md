@@ -22,7 +22,7 @@ Modern Java (Java 8 to 21): Streams, Optional, Date/Time and Concurrency Essenti
 ## Progress Checklist
 
 - [x] Phase 1: Core Java Fundamentals
-- [ ] Phase 1: Modern Java (in progress)
+- [x] Phase 1: Modern Java
 - [ ] Phase 1: Git, Maven and Debugging
 - [ ] Phase 1: SQL and Database
 - [ ] Phase 2: Spring Boot and REST APIs
