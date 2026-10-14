@@ -12,8 +12,3 @@ display the three averages.
 Create a Runnable that simulates processing an employee record for 3 seconds. Submit it using 
 submit(Runnable, result) with the predefined result "Employee Processed Successfully". 
 Use Future.get() to display the result after task completion.
-
-
-
-
-
