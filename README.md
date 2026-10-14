@@ -13,12 +13,6 @@ Day-wise Java Full Stack code and practice from my 3-months HCL training, coveri
 
 ---
 
-## Current Focus
-
-Modern Java (Java 8 to 21): Streams, Optional, Date/Time and Concurrency Essentials.
-
----
-
 ## Progress Checklist
 
 - [x] Phase 1: Core Java Fundamentals
