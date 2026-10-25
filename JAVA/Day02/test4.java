@@ -11,7 +11,7 @@ public class test4 {
         age = sc.nextInt();
         }
 
-        if(age >= 18 && age <= 60){
+        if(age >= 18){
             System.out.println("Congratulations! You are eligible to vote.");
         }else{
             System.out.println("Oops! You are not eligible to vote.");
