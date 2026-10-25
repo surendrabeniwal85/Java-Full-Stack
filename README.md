@@ -6,8 +6,8 @@ Day-wise Java Full Stack code and practice from my 3-months HCL training, coveri
 
 | Phase | Focus | Status |
 |---|---|---|
-| Phase 1: Java Foundations | Core Java, Modern Java, Git, Maven, SQL | In Progress |
-| Phase 2: Backend Engineering | Spring Boot, REST, Security, Testing, Design Patterns | Upcoming |
+| Phase 1: Java Foundations | Core Java, Modern Java, Git, Maven, SQL | Completed |
+| Phase 2: Backend Engineering | Spring Boot, REST, Security, Testing, Design Patterns | In Progress |
 | Phase 3: Frontend and Integration | HTML/CSS, JavaScript, TypeScript, React, Full-Stack Integration | Upcoming |
 | Phase 4: Engineering Practices and Capstone | Microservices, Docker/CI-CD, Cloud, AI-Augmented Dev, Capstone | Upcoming |
 
@@ -17,8 +17,8 @@ Day-wise Java Full Stack code and practice from my 3-months HCL training, coveri
 
 - [x] Phase 1: Core Java Fundamentals
 - [x] Phase 1: Modern Java
-- [ ] Phase 1: Git, Maven and Debugging
-- [ ] Phase 1: SQL and Database
+- [x] Phase 1: Git, Maven and Debugging
+- [x] Phase 1: SQL and Database
 - [ ] Phase 2: Spring Boot and REST APIs
 - [ ] Phase 2: Spring Security and JWT
 - [ ] Phase 2: Testing and Code Quality
